@@ -42,7 +42,7 @@ window.onload = function () {
     // Select Catagory
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
-        catagoryName.innerHTML = "The Chosen Category Is Comida de Mexicana";
+        catagoryName.innerHTML = "The Chosen Category Is Comida Mexicana";
       } else if (chosenCategory === categories[1]) {
         catagoryName.innerHTML = "The Chosen Category Is Ocean Creatures";
       } else if (chosenCategory === categories[2]) {
@@ -184,8 +184,8 @@ window.onload = function () {
     play = function () {
       categories = [
           ["mole", "ceviche", "agua chile", "chilaqules", "birria", "polsole", "empanada"],
-          ["blue-whale", "octopus", "bottlenose-dolphin", "great-white-shark", "vampire-squid", "wobbegong"],
-          ["tucson", "san diego", "guaymas", "amsterdam", "austin", "tijuana", "puerto moreles", "gilroy",]
+          ["Blue Whale", "Octopus", "Bottlenose Dolphin", "Great White Shark", "Vampire Squid", "Wobbegong"],
+          ["Tucson", "San Diego", "Guaymas", "Amsterdam", "Austin", "Tijuana", "Puerto Moreles", "Gilroy",]
       ];
   
       chosenCategory = categories[Math.floor(Math.random() * categories.length)];
