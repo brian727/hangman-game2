@@ -184,8 +184,8 @@ window.onload = function () {
     play = function () {
       categories = [
           ["mole", "ceviche", "agua chile", "chilaqules", "birria", "polsole", "empanada"],
-          ["Blue Whale", "Octopus", "Bottlenose Dolphin", "Great White Shark", "Vampire Squid", "Wobbegong"],
-          ["Tucson", "San Diego", "Guaymas", "Amsterdam", "Austin", "Tijuana", "Puerto Moreles", "Gilroy",]
+          ["Blue-Whale", "Octopus", "Bottlenose-Dolphin", "Great-White-Shark", "Vampire-Squid", "Wobbegong"],
+          ["Tucson", "San-Diego", "Guaymas", "Amsterdam", "Austin", "Tijuana", "Puerto Moreles", "Gilroy"]
       ];
   
       chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -211,9 +211,9 @@ window.onload = function () {
       hint.onclick = function() {
   
         hints = [
-          ["can contain chocolate", "fresh from the ocean", "hot water", "use up those older corn tortillas and cook this dish", "stewed goat", "hominy soup", "a breakfast pastry, goes well with coffee"],
+          ["can contain chocolate", "fresh from the ocean", "hot water", "use up those older corn tortillas and cook this dish", "stewed goat", "hominy soup", "a breakfast pastry", "goes well with coffee"],
           ["biggest ever", "could be alien", "super smart", "wildly misunderstood", "lives very deep, like the undead", "species of bottom dwelling shark"],
-          ["home of the saguaros (in the US)", "whale's vagina", "sonoran port city", "Netherlands capital", "keep this city weird", "home of the busiest border crossing in the world", "magical fishing town in quintana roo", "garlic capital of the world. founded in part by william hanna"]
+          ["Home of the saguaros in the US", "Whale's Vagina", "Sonoran Port City", "Netherlands capital", "keep this city weird", "Home of the busiest border crossing in the world", "Magical fishing town in Quintana Roo", "Garlic capital of the world. Founded in part by william hanna"]
       ];
   
       var catagoryIndex = categories.indexOf(chosenCategory);
